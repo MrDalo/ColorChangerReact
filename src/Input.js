@@ -8,7 +8,7 @@ const Input = (props) => {
         type="text"
         placeholder='User input'
         onChange={(e)=> {
-            props.setColor(()=>e.target.value);
+            props.setColor(e.target.value);
         }}
 
         />
